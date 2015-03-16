@@ -8,7 +8,7 @@ columns = 2
 width = 192
 
 #Read user settings
-require "./settings"
+require_relative "settings"
 
 puts path
 
