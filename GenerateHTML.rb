@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
-path =  Dir.getwd #"C:/" 
+path =  "/home/weewx/public_html/1/" #Dir.getwd #"C:/" 
 fileExt = "jpg"
-outFile = "files.html"
+outFile = "/home/weewx/public_html/1/index.html"
 columns = 2
 width = 192
 
@@ -30,6 +30,6 @@ puts html
 File.open(outFile, 'w') { |file| file.write(html)}
 
 
-STDOUT.flush  
-gets.chomp 
-puts "\a "
+#STDOUT.flush  
+#gets.chomp 
+#puts "\a "
