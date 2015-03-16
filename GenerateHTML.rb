@@ -1,10 +1,14 @@
 #!/usr/bin/env ruby
 
+#Default settings
 path =  "/home/weewx/public_html/1/" #Dir.getwd #"C:/" 
 fileExt = "jpg"
 outFile = "/home/weewx/public_html/1/index.html"
 columns = 2
 width = 192
+
+#Read user settings
+require settings.rb
 
 puts path
 
