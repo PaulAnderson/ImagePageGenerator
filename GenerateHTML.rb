@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
 #Default settings
-path =  "/home/weewx/public_html/1/" #Dir.getwd #"C:/" 
+path =  Dir.getwd 
 fileExt = "jpg"
-outFile = "/home/weewx/public_html/1/index.html"
+outFile = "index.html"
 columns = 2
 width = 192
 
